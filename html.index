@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avocat Antonius Eftenoiu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .link {
+            display: block;
+            padding: 12px;
+            margin: 10px 0;
+            background: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .link:hover {
+            background: #003f7f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Avocat Antonius Eftenoiu" class="profile-img">
+        <h1>Avocat Antonius Eftenoiu</h1>
+        <p class="description">Consultanță juridică și reprezentare în drept penal, comercial, fiscal și insolvență.</p>
+        <a href="https://www.instagram.com/" class="link" target="_blank">📷 Instagram</a>
+        <a href="https://www.facebook.com/" class="link" target="_blank">📘 Facebook</a>
+        <a href="https://www.google.com/search?q=Avocat+Antonius+Eftenoiu&ludocid=14714785194851555624&hl=ro&gl=RO#lrd=0xXXXXXXXXXXXXXXX:0xCCCCCCCCCCCCCCCC,3" class="link" target="_blank">🔍 Google Review</a>
+        <a href="https://docs.google.com/drawings/u/0/d/1qtIdhpvvEJwHmCFQ0m2Cd6Cp1n0UCJj2CuoX8OnXd5Q/edit?usp=sharing&pli=1&authuser=0" class="link" target="_blank">📄 CV</a>
+    </div>
+</body>
+</html>
